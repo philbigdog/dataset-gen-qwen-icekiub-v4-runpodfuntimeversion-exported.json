@@ -14,4 +14,4 @@ RUN comfy model download --url https://huggingface.co/Osrivers/Qwen-Image-Edit-L
 RUN comfy model download --url https://huggingface.co/Comfy-Org/Qwen-Image-Edit-Remove-Clothing/resolve/main/qwen_image_edit_remove-clothing_v1.0.safetensors --relative-path models/loras --filename qwen_image_edit_remove-clothing_v1.0.safetensors
 
 # copy all input data (like images or videos) into comfyui
-COPY input/ /comfyui/input/
+#COPY input/ /comfyui/input/
